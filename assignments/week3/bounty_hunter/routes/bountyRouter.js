@@ -47,10 +47,9 @@ const bounties = [
 ]
 
 
-bountyRouter.route("/")
-    .get((req, res) => {
-        res.send(bounties)
-    })
+.get("/", (req, res) => {
+    res.send(bounties)
+})
 
     .post((req, res) => {
         const newBounty = req.body
