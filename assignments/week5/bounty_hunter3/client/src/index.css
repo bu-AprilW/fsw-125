@@ -1,0 +1,31 @@
+body {
+  text-align: center;
+  background-image: url(https://cdn.europosters.eu/image/750/plastic-frame-star-wars-bounty-hunters-i104254.jpg);
+}
+
+.input {
+  height: 2em;
+  margin: 4px;
+}
+
+.deleteBtn:hover {
+  cursor: pointer;
+  background-color: orange;
+  color: whitesmoke;
+}
+
+.editBtn:hover {
+  cursor: pointer;
+  background-color: orange;
+  color: whitesmoke;
+}
+
+.closeBtn {
+  background-color: black;
+  color: whitesmoke;
+  opacity: 2.0;
+  border: none;
+  height: 2em;
+  font-weight: bolder;
+  margin: 6px;
+}

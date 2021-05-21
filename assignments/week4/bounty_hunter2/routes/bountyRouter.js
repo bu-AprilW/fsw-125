@@ -21,12 +21,12 @@ const bounties = [
         _id: uuidv4()
     },
     {
-        firstName: "Chewbacca", 
-        lastName: "Unknown", 
-        living: true, 
-        bountyAmount: 500000, 
-        type: "Jedi", 
-        _id: uuidv4() 
+         firstName: "Obi-Wan",
+         lastName: "Kenobi",
+         living: false,
+         bountyAmount: 50000,
+         type: "Jedi",
+         _id: uuid.v4()
     },
     {
         firstName: "Jabba", 

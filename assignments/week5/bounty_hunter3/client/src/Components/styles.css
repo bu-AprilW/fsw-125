@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    font-family: "Impact", Times, serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    text-align: center;
+}
+
+body {
+    background-image: url(https://cdn.europosters.eu/image/750/plastic-frame-star-wars-bounty-hunters-i104254.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: absolute;
+}
+
+h1 {
+    margin: 5px;
+}
+
+h3 {
+    margin: 5px;
+}
+
+.bountyContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    margin: 32px;
+    margin-left: 450px;
+    position: absolute;
+}
+
+.bounty {
+    border: 2px solid #333;
+    padding: 15px;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 100%;
+    align-content: center;
+    text-align: center;
+}
+
+.header {
+    color: orange;
+    font-family: "Impact", Times, serif;
+    font-size: 70px;
+    text-decoration: underline;
+    text-align: center;
+    margin-right: 80px;
+    margin-top: 20px;
+}
+
+form {
+    border: 1px solid #333;
+    padding: 10px;
+    margin: 5px;
+}
+
+.editBtn {
+    background-color: cornflowerblue;
+    font-size: 10px;
+    margin: 5px;
+}
+
+.deleteBtn {
+    background-color: cornflowerblue;
+    font-size: 10px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    background-color: cornflowerblue;
+    color: black;
+    margin: 5px;
+}
+
+button {
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 16px;
+}
