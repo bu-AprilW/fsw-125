@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+  font-family: "Impact", Times, serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  text-align: center;
+}
+
+body {
+  background-image: url(https://cdn.europosters.eu/image/750/plastic-frame-star-wars-bounty-hunters-i104254.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: absolute;
+  right: -5px;
+}
+
+.title {
+  color: orange;
+  text-align: center;
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 40px;
+  margin: 5px;
+}
+
+h2 {
+  color: cornflowerblue;
+}
+
+h4 {
+  color: orange;
+}
+
+.header {
+  margin: 15px;
+  padding: 15px;
+}
+
+p {
+  margin: 5px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 32px;
+  position: absolute;
+  top: 80px;
+  right: 0;
+}
+
+.bounty {
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 15px;
+  margin: auto;
+  margin-bottom: 10px;
+  width: 100%;
+  align-content: center;
+  text-align: center;
+}
+
+.header {
+  font-size: 36px;
+  margin-top: 5px;
+  text-align: right;
+  margin-right: 270px;
+  margin-top: 20px;
+}
+
+.newBount {
+  display: flex;
+}
+
+.editBtn {
+  background-color: cornflowerblue;
+  font-size: 10px;
+  margin: 5px;
+}
+
+.editBtn:hover {
+  background-color: black;
+  color: cornflowerblue;
+}
+
+.delBtn {
+  background-color: red;
+  color: whitesmoke;
+  border-radius: 25px;
+  padding: 4px;
+}
+
+.delBtn:hover {
+  background-color: whitesmoke;
+  color: red;
+}
+
+input {
+  font-size: 16px;
+  border: 3px solid orange;
+  border-radius: 8px;
+  margin: 5px;
+  padding: 10px;
+}
+
+::placeholder {
+  text-align: center;
+}
+
+button {
+  background-color: cornflowerblue;
+  color: whitesmoke;
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: whitesmoke;
+  color: cornflowerblue;
+}
+
+.closeBtn {
+  background-color: whitesmoke;
+  color: cornflowerblue;
+}
+
+.closeBtn:hover {
+  background-color: cornflowerblue;
+  color: whitesmoke;
+}
+
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: whitesmoke;
+  text-align: center;
+}

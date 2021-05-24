@@ -1,0 +1,58 @@
+body {
+  font-family: "Impact", Times, serif;
+  background-image: url("https://cdn.europosters.eu/image/750/plastic-frame-star-wars-bounty-hunters-i104254.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+#form {
+  grid-column: 4/-1;
+  grid-row: 1/2;
+  text-align: center;
+  border-bottom: 1px solid whitesmoke;
+  border-left: 1px solid whitesmoke;
+  padding: 20px;
+}
+
+form > label {
+  color: cornflowerblue;
+}
+
+form > label > input {
+  border-radius: 0 20px 20px 0;
+  margin-top: 9px;
+}
+
+form > button {
+  border-radius: 20px;
+  margin-top: 9px;
+}
+
+.bounties {
+  grid-column: 4/-1;
+  background-color: whitesmoke;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+  color: cornflowerblue;
+}
+
+.bounties:nth-child(odd) {
+  background-color: orange;
+}
+
+.bounties > form {
+  margin: 14px;
+}
+
+.bounties > button {
+  border-radius: 20px;
+  box-shadow: 2px 2px whitesmoke;
+}
